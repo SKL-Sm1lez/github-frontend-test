@@ -20,9 +20,9 @@ export const Header = () => {
     }
     
     return (
-        <header className={classes.Header}>
+        <header className={classes.header}>
 
-            <div className={classes.Logo}>
+            <div className={classes.logo}>
                 <img src={logo} alt={'logo'}/>
                 <NavLink
                     to='/movie'
@@ -31,7 +31,7 @@ export const Header = () => {
                 </NavLink>
             </div>
             
-            <form className={classes.Search}>
+            <form className={classes.search}>
                 <input type='text' placeholder='Поиск...' onChange={event => searchInputAction(event.target.value)}/>
                 <NavLink
                     to='/search'

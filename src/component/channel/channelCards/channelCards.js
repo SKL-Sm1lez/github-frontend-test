@@ -4,14 +4,14 @@ import classes from './channelCards.module.scss'
 export const ChannelCards = props => {
 
     return (
-        <div className={classes.ChannelCards}>
+        <div className={classes.channelCards}>
             
             <div>
                 <img src={props.logo} alt='Logo'/>
             </div>
 
 
-            <section className={classes.Description}>
+            <section className={classes.description}>
                 <h3>{props.name}</h3>
 
                 <section>

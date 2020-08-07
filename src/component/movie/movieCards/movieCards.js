@@ -18,15 +18,15 @@ export const MovieCards = props => {
     const imgArr = [image1, image2, image3, image4, image5, image6, image7, image8]
 
     return (
-        <div className={classes.MovieCard}>
+        <div className={classes.movieCard}>
             <NavLink to={`/movie/${props.id}`}>
-                <div className={classes.Card}>
-                    <p className={classes.Description}>{props.description}</p>
-                    <div className={classes.Background} />
+                <div className={classes.card}>
+                    <p className={classes.description}>{props.description}</p>
+                    <div className={classes.background} />
                     <img src={imgArr[props.index]} alt={'Film preview'}/>
                 </div>
 
-                <p className={classes.FilmName}>{props.name}</p>
+                <p className={classes.filmName}>{props.name}</p>
             </NavLink>
         </div>
     )
