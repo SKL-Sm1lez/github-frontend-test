@@ -4,7 +4,7 @@ import classes from './button.module.scss'
 export const Button = props => {
     return (
         <button 
-            className={classes.button}
+            className={classes.Button}
             onClick={props.onClick}
         >
             {props.text}

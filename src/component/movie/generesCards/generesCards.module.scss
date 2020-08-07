@@ -1,4 +1,4 @@
-.generesCard {
+.GeneresCard {
     display: flex;
     justify-content: space-between;
 
@@ -6,7 +6,7 @@
 
 
     // ===== Comedy =====
-    & .comedyCard {
+    & .ComedyCard {
         position: relative;
 
         width: 280px;
@@ -14,7 +14,7 @@
 
         cursor: pointer;
 
-        &:hover .comedyGradient {
+        &:hover .ComedyGradient {
             opacity: 1;
         }
 
@@ -52,7 +52,7 @@
             padding: 0;
         }
     
-        & .comedyGradient {
+        & .ComedyGradient {
             position: absolute;
             
             background: linear-gradient(136.27deg, #F2C94C 8.44%, #F29A4A 91.36%);
@@ -73,7 +73,7 @@
     }
 
     // ===== Dramas =====
-    & .dramasCard {
+    & .DramasCard {
         position: relative;
 
         width: 280px;
@@ -81,7 +81,7 @@
 
         cursor: pointer;
 
-        &:hover .dramasGradient {
+        &:hover .DramasGradient {
             opacity: 1;
         }
 
@@ -119,7 +119,7 @@
             padding: 0;
         }
     
-        & .dramasGradient {
+        & .DramasGradient {
             position: absolute;
             
             background: linear-gradient(136.27deg, #F2994A 8.44%, #EB5757 91.36%);
@@ -140,7 +140,7 @@
     }
 
     // ===== Fantastic =====
-    & .fantasticCard {
+    & .FantasticCard {
         position: relative;
 
         width: 280px;
@@ -148,7 +148,7 @@
 
         cursor: pointer;
 
-        &:hover .fantasticGradient {
+        &:hover .FantasticGradient {
             opacity: 1;
         }
 
@@ -186,7 +186,7 @@
             padding: 0;
         }
     
-        & .fantasticGradient {
+        & .FantasticGradient {
             position: absolute;
             
             background: linear-gradient(136.27deg, #56CCF2 8.44%, #2F80ED 91.36%);
@@ -207,7 +207,7 @@
     }
 
     // ===== Horror =====
-    & .horrorCard {
+    & .HorrorCard {
         position: relative;
 
         width: 280px;
@@ -215,7 +215,7 @@
 
         cursor: pointer;
 
-        &:hover .horrorGradient {
+        &:hover .HorrorGradient {
             opacity: 1;
         }
 
@@ -253,7 +253,7 @@
             padding: 0;
         }
     
-        & .horrorGradient {
+        & .HorrorGradient {
             position: absolute;
             
             background: linear-gradient(136.27deg, #828282 8.44%, #333333 91.36%);

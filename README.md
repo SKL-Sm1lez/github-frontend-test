@@ -1,5 +1,4 @@
 =======================
-
 Steps:
 
 - cd ../frontend-htc
@@ -7,14 +6,12 @@ Steps:
 - yarn start (запускает dev build)
 - yarn build (создаёт prod build)
 - готовый prod build ( https://react-htc-test.web.app/movie )
-
 =======================
 
 - Поддерживается ie11
 - все исходники в ../frontend-htc/src
 
 =======================
-
 Аккаунты для проверки:
 
 - Login:    test1
